@@ -1,0 +1,6 @@
+framework module Pods_312PluminaryVellichor {
+  umbrella header "Pods-312PluminaryVellichor-umbrella.h"
+
+  export *
+  module * { export * }
+}
