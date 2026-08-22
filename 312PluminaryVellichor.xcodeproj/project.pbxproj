@@ -22,6 +22,17 @@
 		8522024C5B47882DB9B11282 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50553834489750DA9F00A4 /* HapticService.swift */; };
 		983E9C82C7EBA2725CBEFF4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F41FB002FEA5C8F4A0FEE0 /* SettingsView.swift */; };
 		9E422B344F5051762C987FE4 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C7D442520EC0DBA3E35D3 /* Achievement.swift */; };
+		A81F0C01A11C4F10A7F00012 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00011 /* LaunchFlowSecrets.swift */; };
+		A81F0C01A11C4F10A7F00014 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00013 /* LaunchFlowResolver.swift */; };
+		A81F0C01A11C4F10A7F00016 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00015 /* LaunchSessionStore.swift */; };
+		A81F0C01A11C4F10A7F00018 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00017 /* WebDocumentSurfaceView.swift */; };
+		A81F0C01A11C4F10A7F0001A /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00019 /* DeferredLaunchCanvas.swift */; };
+		A81F0C01A11C4F10A7F0001C /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F0001B /* RemoteEntryProbe.swift */; };
+		A81F0C01A11C4F10A7F0001E /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F0001D /* RemoteEntryURLComposer.swift */; };
+		A81F0C01A11C4F10A7F00020 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F0001F /* RootWindowPresenter.swift */; };
+		A81F0C01A11C4F10A7F00022 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00021 /* CalendarGateEvaluator.swift */; };
+		A81F0C01A11C4F10A7F00024 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00023 /* LaunchStagingState.swift */; };
+		A81F0C01A11C4F10A7F00026 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81F0C01A11C4F10A7F00025 /* LaunchDestination.swift */; };
 		B08C2BFB2CA5A280401FC1D0 /* img_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7B709AB2E59A0858DFC674 /* img_banner.png */; };
 		B7CAE006E88BABEC2C072A9E /* img_card.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCFFB52752AB0935E2467D /* img_card.png */; };
 		C3F6D5BAF0ABDB0796524C9C /* MoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9A340DE10F872C500C44D /* MoodsView.swift */; };
@@ -56,6 +67,17 @@
 		99318901281DB26B5EFFB65E /* Pods-312PluminaryVellichor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-312PluminaryVellichor.debug.xcconfig"; path = "Target Support Files/Pods-312PluminaryVellichor/Pods-312PluminaryVellichor.debug.xcconfig"; sourceTree = "<group>"; };
 		A0743C3DF95566FFBB6F85CE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C0212DDDEA87B2590511BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A81F0C01A11C4F10A7F00011 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00013 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00015 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00017 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00019 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F0001B /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F0001D /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F0001F /* RootWindowPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00021 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00023 /* LaunchStagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		A81F0C01A11C4F10A7F00025 /* LaunchDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
 		AB50553834489750DA9F00A4 /* HapticService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
 		B0FCFFB52752AB0935E2467D /* img_card.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_card.png; sourceTree = "<group>"; };
 		B6AB853BC56D09A200620ED3 /* AchievementsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
@@ -164,6 +186,7 @@
 			children = (
 				7C058C6EA8E15375A585FCF1 /* AppDelegate.swift */,
 				451A501C657235157314CB6C /* SceneDelegate.swift */,
+				A81F0C01A11C4F10A7F00010 /* LaunchFlow */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -246,6 +269,24 @@
 				B66ECB60A218F98F5823B4E3 /* Settings */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A81F0C01A11C4F10A7F00010 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A81F0C01A11C4F10A7F00021 /* CalendarGateEvaluator.swift */,
+				A81F0C01A11C4F10A7F00019 /* DeferredLaunchCanvas.swift */,
+				A81F0C01A11C4F10A7F00025 /* LaunchDestination.swift */,
+				A81F0C01A11C4F10A7F00013 /* LaunchFlowResolver.swift */,
+				A81F0C01A11C4F10A7F00011 /* LaunchFlowSecrets.swift */,
+				A81F0C01A11C4F10A7F00015 /* LaunchSessionStore.swift */,
+				A81F0C01A11C4F10A7F00023 /* LaunchStagingState.swift */,
+				A81F0C01A11C4F10A7F0001B /* RemoteEntryProbe.swift */,
+				A81F0C01A11C4F10A7F0001D /* RemoteEntryURLComposer.swift */,
+				A81F0C01A11C4F10A7F0001F /* RootWindowPresenter.swift */,
+				A81F0C01A11C4F10A7F00017 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		B66ECB60A218F98F5823B4E3 /* Settings */ = {
@@ -401,6 +442,17 @@
 				220EE4D1C1A9220AA900E4A1 /* MainTabView.swift in Sources */,
 				FF4305171C5D3C6E1B313BC5 /* OnboardingView.swift in Sources */,
 				983E9C82C7EBA2725CBEFF4E /* SettingsView.swift in Sources */,
+				A81F0C01A11C4F10A7F00012 /* LaunchFlowSecrets.swift in Sources */,
+				A81F0C01A11C4F10A7F00014 /* LaunchFlowResolver.swift in Sources */,
+				A81F0C01A11C4F10A7F00016 /* LaunchSessionStore.swift in Sources */,
+				A81F0C01A11C4F10A7F00018 /* WebDocumentSurfaceView.swift in Sources */,
+				A81F0C01A11C4F10A7F0001A /* DeferredLaunchCanvas.swift in Sources */,
+				A81F0C01A11C4F10A7F0001C /* RemoteEntryProbe.swift in Sources */,
+				A81F0C01A11C4F10A7F0001E /* RemoteEntryURLComposer.swift in Sources */,
+				A81F0C01A11C4F10A7F00020 /* RootWindowPresenter.swift in Sources */,
+				A81F0C01A11C4F10A7F00022 /* CalendarGateEvaluator.swift in Sources */,
+				A81F0C01A11C4F10A7F00024 /* LaunchStagingState.swift in Sources */,
+				A81F0C01A11C4F10A7F00026 /* LaunchDestination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +478,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cem.pl7m9rt7k;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -512,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cem.pl7m9rt7k;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
